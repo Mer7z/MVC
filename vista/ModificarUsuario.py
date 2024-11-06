@@ -21,7 +21,7 @@ class ModificarUsuario():
         self.lblRol = tk.Label(self.ventana, text="Rol*:", state="disabled")
         self.lblRol.place(x=50, y=235, width=80, height=25)
         
-        self.iconoBuscar = tk.PhotoImage(file=r"src\icons\magnifier.png")
+        self.iconoBuscar = tk.PhotoImage(file=r"MVC\src\icons\magnifier.png")
         self.btnBuscar = tk.Button(self.ventana, image=self.iconoBuscar)
         self.btnBuscar.place(x=340, y=180, width=25, height=25)
         
@@ -34,11 +34,11 @@ class ModificarUsuario():
         self.txtRol = tk.Entry(self.ventana)
         self.txtRol.place(x=160, y=235, width=150, height=25)
         
-        self.iconoModificar = tk.PhotoImage(file=r"src\icons\user_edit.png")
+        self.iconoModificar = tk.PhotoImage(file=r"MVC\src\icons\user_edit.png")
         self.btnModificar = tk.Button(self.ventana, text="Modificar", image=self.iconoModificar, compound="left")
         self.btnModificar.place(x=85, y=310, width=80, height=25)
         
-        self.iconoLimpiar = tk.PhotoImage(file=r"src\icons\textfield_delete.png")
+        self.iconoLimpiar = tk.PhotoImage(file=r"MVC\src\icons\textfield_delete.png")
         self.btnLimpiar = tk.Button(self.ventana, text="Limpiar", image=self.iconoLimpiar, compound="left")
         self.btnLimpiar.place(x=195, y=310, width=80, height=25)
         
