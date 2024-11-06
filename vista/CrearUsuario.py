@@ -36,12 +36,12 @@ class CrearUsuario():
         self.txtRol = tk.Entry(self.ventana)
         self.txtRol.place(x=160, y=235, width=150, height=25)
         
-        self.iconoGuardar = tk.PhotoImage(file=r"src\icons\disk.png")
+        self.iconoGuardar = tk.PhotoImage(file=r"MVC\src\icons\disk.png")
         self.btnGuardar = tk.Button(self.ventana, text="Guardar", image=self.iconoGuardar, compound="left")
         self.btnGuardar.place(x=85, y=310, width=80, height=25)
         self.btnGuardar.bind("<Button-1>", self.guardarUsuario)
         
-        self.iconoLimpiar = tk.PhotoImage(file=r"src\icons\textfield_delete.png")
+        self.iconoLimpiar = tk.PhotoImage(file=r"MVC\src\icons\textfield_delete.png")
         self.btnLimpiar = tk.Button(self.ventana, text="Limpiar", image=self.iconoLimpiar, compound="left")
         self.btnLimpiar.place(x=195, y=310, width=80, height=25)
         
